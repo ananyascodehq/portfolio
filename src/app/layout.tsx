@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ananyakannan.dev"),
   title: "Ananya Kannan — Software & AI Engineer",
   description:
     "Portfolio of Ananya Kannan — Computer Science student building software, AI systems, and technical experiments. Specializing in Full-Stack Development and Machine Learning.",
