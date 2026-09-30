@@ -1,7 +1,7 @@
 export const flagshipRepos = [
   {
     id: "01",
-    repo: null,
+    repo: "stock-anomaly-detector",
     title: "Real-Time Stock Anomaly Detector",
     description: "Engineered a 4-layer ensemble ML pipeline detecting irregular market behaviour across 3 live tickers at a 60-second interval; presented at SVCE Student Research Day 2026 and deployed live on Render.",
     architecture: ["Python", "Scikit-learn", "TensorFlow", "SQLite", "Streamlit", "yfinance"]
