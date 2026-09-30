@@ -44,3 +44,38 @@ export const internships = [
     ]
   }
 ];
+
+export const hackathons = [
+  {
+    id: "sih-2026",
+    name: "Smart India Hackathon 2026",
+    project: "Sovereign AI Workbench",
+    description: "Sovereign On-Premise Agentic AI Workbench using Open-Weight Multimodal LLMs for Confidential Industrial Work.",
+    achievement: "Shortlisted in Internal Hackathon",
+    architecture: ["Agentic AI", "Multimodal LLMs"]
+  },
+  {
+    id: "blueprints-2026",
+    name: "Blueprints 2026",
+    project: "Digital Pulse",
+    description: "AI-powered real-time virality intelligence platform to monitor, analyze, and forecast digital trends using engagement signals and narrative discovery.",
+    achievement: "Developed The Contextual Cultural Intelligence Engine",
+    architecture: ["Next.js 14", "FastAPI", "Supabase", "Sentence Transformers", "BERTopic"]
+  },
+  {
+    id: "heatcode",
+    name: "HEATCODE 2025",
+    project: "Chennai Weather Predictor",
+    description: "ML competition organized by FODSE SVCE to predict Chennai's Sunday temperature.",
+    achievement: "Built Predictive ML Model",
+    architecture: ["Machine Learning", "Python", "Data Science"]
+  },
+  {
+    id: "dec-algo-2025",
+    name: "A December of Algorithms 2025",
+    project: "Algorithmic Challenges",
+    description: "Month-long algorithms and data structures coding challenge conducted by ACM SVCE.",
+    achievement: "Participant",
+    architecture: ["Algorithms", "Problem Solving"]
+  }
+];

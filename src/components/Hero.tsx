@@ -6,11 +6,11 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-24 px-6 md:px-12 w-full flex flex-col justify-center items-center bg-[#0A0A0A] text-[#EDEDED] overflow-hidden min-h-[90vh]">
+    <section className="relative pt-24 pb-16 px-6 md:px-12 w-full flex flex-col justify-center items-center bg-[#0A0A0A] text-[#EDEDED] overflow-hidden min-h-[75vh]">
       {/* Interactive Dot Grid Background - reduced opacity */}
       <InteractiveGrid color="rgba(237,237,237,0.15)" />
       
-      <div className="relative z-10 flex flex-col items-center justify-center max-w-5xl mx-auto w-full gap-8 text-center mt-12">
+      <div className="relative z-10 flex flex-col items-center justify-center max-w-5xl mx-auto w-full gap-8 text-center">
         
         {/* Massive Typography & Professional Identity */}
         <motion.div 

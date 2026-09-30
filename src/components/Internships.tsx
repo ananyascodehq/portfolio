@@ -3,11 +3,12 @@
 import { motion } from "framer-motion";
 import SectionHeader from "./ui/SectionHeader";
 import { internships } from "../data/portfolio";
+
 export default function Internships() {
   return (
-    <section id="internships" className="pt-16 md:pt-24 pb-12 px-6 md:px-12 w-full bg-[#0A0A0A] text-[#FAFAFA] relative z-20">
+    <section id="internships" className="pt-12 md:pt-16 pb-16 px-6 md:px-12 w-full bg-[#0A0A0A] text-[#FAFAFA] relative z-20">
       <motion.div 
-        className="max-w-7xl mx-auto flex flex-col items-start mb-16"
+        className="max-w-7xl mx-auto flex flex-col items-start mb-8"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
@@ -15,7 +16,7 @@ export default function Internships() {
       >
         <SectionHeader 
           pillText="EXPERIENCE.INDUSTRY"
-          title="Industry Exposure."
+          title={<>Industry Exposure<span className="text-[var(--color-accent)]">.</span></>}
           theme="dark"
           size="md"
         />

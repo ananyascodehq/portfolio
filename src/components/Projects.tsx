@@ -38,8 +38,8 @@ export default async function Projects() {
   );
 
   return (
-    <section id="work" className="pt-24 md:pt-40 pb-0 w-full bg-[#FAFAFA] text-[#0A0A0A] border-t border-[#E5E5E5] relative z-20 overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col items-start mb-24 px-6 md:px-12">
+    <section id="work" className="pt-16 md:pt-24 pb-0 w-full bg-[#FAFAFA] text-[#0A0A0A] border-t border-[#E5E5E5] relative z-20 overflow-hidden">
+      <div className="max-w-7xl mx-auto flex flex-col items-start mb-10 px-6 md:px-12">
         
         <SectionHeader 
           pillText="SYSTEM.ARCHIVES"
@@ -54,7 +54,7 @@ export default async function Projects() {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col border-t border-[#E5E5E5] pt-4">
+      <div className="max-w-7xl mx-auto flex flex-col border-t border-[#E5E5E5] pt-4 px-6 md:px-12">
         {projectsData.map((project, index) => (
           <ProjectRow 
             key={project.id}

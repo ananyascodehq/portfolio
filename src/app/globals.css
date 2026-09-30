@@ -48,9 +48,11 @@ body::before {
   background-size: 24px 24px;
 }
 
-/* Custom cursor default hide logic (optional, managed in JS usually) */
-/* .has-custom-cursor { cursor: none; } */
-/* .has-custom-cursor * { cursor: none !important; } */
+
+/* Hide scrollbar utility — used by horizontal scroll containers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
 ::selection {
   background-color: var(--color-fg-base);

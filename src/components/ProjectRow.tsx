@@ -17,7 +17,7 @@ interface ProjectRowProps {
 export default function ProjectRow({ id, title, description, architecture, link, githubUrl, demoUrl, index }: ProjectRowProps) {
   return (
     <motion.div 
-      className="group flex flex-col md:flex-row py-12 px-6 md:px-8 border border-transparent hover:border-[#E5E5E5]/20 border-b-[#E5E5E5] hover:bg-[#111111] rounded-2xl hover:text-[#FAFAFA] transition-all duration-500 cursor-pointer relative overflow-hidden mb-4 hover:scale-[1.02] transform origin-center"
+      className="group flex flex-col md:flex-row py-12 px-6 md:px-8 border border-transparent hover:border-[#E5E5E5]/20 border-b-[#E5E5E5] hover:bg-[#111111] rounded-2xl hover:text-[#FAFAFA] transition-all duration-500 cursor-pointer relative overflow-hidden mb-4 hover:scale-[1.02] transform origin-center will-change-transform"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
